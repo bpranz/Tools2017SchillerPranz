@@ -79,4 +79,5 @@ public class MainActivity extends SampleActivityBase {
 
         Log.i(TAG, "Ready");
     }
+public void thisIsANewMethod() { }
 }
