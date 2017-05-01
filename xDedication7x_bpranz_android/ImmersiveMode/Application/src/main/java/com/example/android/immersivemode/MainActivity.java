@@ -91,12 +91,13 @@ public class MainActivity extends SampleActivityBase {
 
 public void thisIsANewMethod() { 
         for(int i = 0; i < 10; i++){
-            System.out.println(i);
+            System.out.println(“Zeile:“+i);
         }
         int i=0; int j;
         while(i<10){
 	    j++;
             i++;
+            System.out.println(“Zeile:“+i+“\nSpalte:“+j);
 	}
     }
 }
