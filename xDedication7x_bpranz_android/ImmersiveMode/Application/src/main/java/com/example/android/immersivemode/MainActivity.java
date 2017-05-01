@@ -49,13 +49,18 @@ public class MainActivity extends SampleActivityBase {
             transaction.add(fragment, FRAGTAG);
             transaction.commit();
         }
-    }
+    
+	System.out.println("WorkingOnMethod");
+	
+	}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 	getMenuInflater().inflate(R.menu.developeroptions, devoptions);
         return true;
+			System.out.println("WorkingOnMethod");
+
     }
 
     /** Create a chain of targets that will receive log data */
@@ -79,6 +84,9 @@ public class MainActivity extends SampleActivityBase {
 
 
         Log.i(TAG, "Ready");
+		
+			System.out.println("WorkingOnMethod");
+
     }
 
 public void thisIsANewMethod() { 
