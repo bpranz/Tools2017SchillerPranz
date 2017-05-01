@@ -80,5 +80,10 @@ public class MainActivity extends SampleActivityBase {
 
         Log.i(TAG, "Ready");
     }
-public void thisIsANewMethod() { }
+public void thisIsANewMethod() {
+int i=0; int j;
+while(i<10){
+	j++;
+i++;
+	}
 }
