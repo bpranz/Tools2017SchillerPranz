@@ -89,6 +89,7 @@ public void thisIsANewMethod() {
         while(i<10){
 	    j++;
             i++;
+            System.out.println(“Zeile:“+i+“\nSpalte:“+j);
 	}
     }
 }
